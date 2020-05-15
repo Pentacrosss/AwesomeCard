@@ -33,11 +33,14 @@ class CardBackLayout {
               height: 50,
               color: Colors.grey,
             ),
+            SizedBox(
+              width: 5.0,
+            ),
             Container(
               height: 50,
               width: width / 4,
               child: Align(
-                alignment: Alignment.center,
+                alignment: Alignment.centerLeft,
                 child: Text(
                   cvv.toString(),
                   style: TextStyle(
